@@ -9,6 +9,5 @@ Escrever um print fazendo uma interpolacao entre a constante e a variavel, defin
 
 let fName = "Steve"
 var lName: String? = "Jobs"
-let lName2 = lName ?? "Wozniak"
 
-print(fName, lName2)
+print(fName, lName ?? "Wozniak")
